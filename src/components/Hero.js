@@ -14,7 +14,7 @@ export default function Hero( { heroTitle, heroSubtitle, heroImage }) {
               <p className="text-muted mb-4 pb-2">{heroSubtitle}</p>
               <Link href="#services">
                 <a className="btn btn-warning">
-                  Find Out More <span className="ml-2">&darr;</span>
+                  Have a Look <span className="ml-2">&darr;</span>
                 </a>
               </Link>
             </div>
