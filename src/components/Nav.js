@@ -14,11 +14,11 @@ export default function Header() {
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
-            <Nav className="m-auto">
+            {/* <Nav className="m-auto">
               <Nav.Link href="#">Home</Nav.Link>
               <Nav.Link href="#">Services</Nav.Link>
               <Nav.Link href="#">About</Nav.Link>
-            </Nav>
+            </Nav> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
