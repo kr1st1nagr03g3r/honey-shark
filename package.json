@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
     "bootstrap": "^5.1.3",
     "datocms-structured-text-to-plain-text": "^2.0.4",
     "next": "^12.1.5",

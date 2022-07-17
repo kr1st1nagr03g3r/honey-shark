@@ -8,7 +8,7 @@ export default function Index({ homeInfo }) {
             <Head>  <title>KG</title></Head>
 
             <Hero heroTitle={homeInfo.title} heroSubtitle={homeInfo.heroSubtitle} heroImage={homeInfo.heroImage} />
-            {/* <p>{homeInfo.heroSubtitle}</p> */}
+            <h1>{homeInfo.heroSubtitle}</h1>
         </>
     )
 }

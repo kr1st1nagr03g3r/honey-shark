@@ -40,8 +40,6 @@ export async function getHome() {
               }
             }
           }
-          
-          
          `
     )
 // console.log(data)
