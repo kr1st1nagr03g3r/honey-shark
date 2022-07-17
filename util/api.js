@@ -1,5 +1,5 @@
 async function fetchAPI(query, { variables, preview } = {}) {
-    const res = await fetch(process.env.API_URL + (preview ? 'preview' : ''), {
+    const res = await fetch(process.env.API_URL + (preview ? '/preview' : ''), {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
