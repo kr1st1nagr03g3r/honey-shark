@@ -1,5 +1,5 @@
 import Head from "next/head"
-import { getHome } from "util/api"
+import { getHome } from "@/util/api"
 import Hero from "@/components/Hero"
 import Nav from "@/components/Nav"
 
