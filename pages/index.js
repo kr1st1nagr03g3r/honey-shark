@@ -5,9 +5,9 @@ import Hero from "../src/components/Hero"
 export default function Index({ homeInfo }) {
     return (
         <>
-            {/* <Head>  <title>KG</title></Head>
+            <Head>  <title>KG</title></Head>
 
-            <Hero heroTitle={homeInfo.title} heroSubtitle={homeInfo.heroSubtitle} heroImage={homeInfo.heroImage} /> */}
+            <Hero heroTitle={homeInfo.title} heroSubtitle={homeInfo.heroSubtitle} heroImage={homeInfo.heroImage} />
             {/* <p>{homeInfo.heroSubtitle}</p> */}
         </>
     )
