@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Navbar, Nav, Image } from "react-bootstrap"
-import Images from '../images/index.js'
+// import Images from '../images/index.js'
 
 
 export default function Header() {
@@ -9,7 +9,7 @@ export default function Header() {
       <Navbar bf={"light"} expand="md">
         <Container>
           <Navbar.Brand href="#">
-          <Image width="130px" height="130" alt="hypnotic eye" src={ Images.HypnoticEye } />
+          {/* <Image width="130px" height="130" alt="hypnotic eye" src={ Images.HypnoticEye } /> */}
           
           {/* <Image data={heroImage.responsiveImage} className="img-fluid d-block mx-auto" alt={heroImage.alt} /> */}
           
