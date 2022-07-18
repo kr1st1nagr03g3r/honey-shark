@@ -32,6 +32,14 @@ export async function getHome() {
     const data = await fetchAPI(
         `query MyQuery {
             home {
+               navImage {
+                alt
+                responsiveImage {
+                  src
+                  height
+                  width
+                }
+              }
               heroSubtitle
               title
               heroImage {
@@ -42,8 +50,10 @@ export async function getHome() {
                   width
                 }
               }
+             
             }
           }
+          
          `
     )
 // console.log(data)

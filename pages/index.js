@@ -6,8 +6,8 @@ import Nav from "@/components/Nav"
 export default function Index({ homeInfo }) {
     return (
         <>
-            <Head>  <title>KG</title></Head>
-            <Nav />
+            <Head>  <title>Kristina Groeger - UIX Developer and Designer</title></Head>
+            <Nav navImage={homeInfo.navImage} />
             <Hero heroTitle={homeInfo.title} heroSubtitle={homeInfo.heroSubtitle} heroImage={homeInfo.heroImage} />
             <h1>{homeInfo.heroSubtitle}</h1>
         </>

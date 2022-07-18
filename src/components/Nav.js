@@ -1,22 +1,24 @@
 import React from "react"
-import { Container, Navbar, Nav, Image } from "react-bootstrap"
-// import Images from '../images/index.js'
+import { Container, Navbar, Nav } from "react-bootstrap"
+import { Image } from "react-datocms"
+import styles from "/styles/Nav.module.css"
 
 
-export default function Header() {
+export default function Header( {navImage}) {
   return (
     <div className={"header"}>
-      <Navbar bf={"light"} expand="md">
+      <Navbar bf={"light"} expand="md" >
         <Container>
-          <Navbar.Brand href="#">
-          {/* <Image width="130px" height="130" alt="hypnotic eye" src={ Images.HypnoticEye } /> */}
+          <Navbar.Brand href="/" className={styles.logoBrand}>
           
-          {/* <Image data={heroImage.responsiveImage} className="img-fluid d-block mx-auto" alt={heroImage.alt} /> */}
+          <Image data={navImage.responsiveImage} alt={navImage.alt} className="d-inline-block align-top" />
           
           </Navbar.Brand>
           <Navbar.Toggle />
-          <Navbar.Collapse>
-            <Nav className="m-auto">
+          <Navbar.Collapse className="justify-content-end">
+
+            {/* Removed className="m-auto" from Nav */}
+            <Nav>
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/services">Services</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
