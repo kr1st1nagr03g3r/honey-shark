@@ -1,5 +1,7 @@
 import React from "react"
 import { Container, Navbar, Nav, Image } from "react-bootstrap"
+import Images from '../images/index.js'
+
 
 export default function Header() {
   return (
@@ -7,7 +9,7 @@ export default function Header() {
       <Navbar bf={"light"} expand="md">
         <Container>
           <Navbar.Brand href="#">
-          <Image width="130px" alt="hypnotic eye" src="https://www.datocms-assets.com/76639/1657897987-hypnotic-eye.png" />
+          <Image width="130px" height="130" alt="hypnotic eye" src={ Images.HypnoticEye } />
           
           {/* <Image data={heroImage.responsiveImage} className="img-fluid d-block mx-auto" alt={heroImage.alt} /> */}
           

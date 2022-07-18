@@ -1,3 +1,7 @@
+// import { buildClient } from '@datocms/cma-client-node';
+// const client = buildClient({ apiToken: 'b01140255f540114a1da4c6978f5e0' });
+
+
 async function fetchAPI(query, { variables, preview } = {}) {
     const res = await fetch(process.env.API_URL + (preview ? '/preview' : ''), {
         method: 'POST',
