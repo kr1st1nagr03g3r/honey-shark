@@ -10,7 +10,7 @@ export default function Hero( { heroTitle, heroSubtitle, heroImage }) {
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="pr-lg-5">
-              <h1 className="mb-4 font-weight-normal line-height-1_4">{heroTitle}</h1>
+              <h1 className="mb-4 font-weight-normal line-height-1_4 font-serif">{heroTitle}</h1>
               <p className="text-muted mb-4 pb-2">{heroSubtitle}</p>
               <Link href="#">
                 <a className="btn btn-warning">

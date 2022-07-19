@@ -1,0 +1,29 @@
+/* Link Underline on Hover */
+
+.underHover {
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;    
+    background-color: #81848a;
+    animation: underline 2s;
+}
+
+@keyframes underline {
+    from {
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;        
+    
+    }
+    to {
+    top: 200px;
+}
+  }

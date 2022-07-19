@@ -60,3 +60,37 @@ export async function getHome() {
 
     return data?.home
 }
+
+// Contact
+export async function getContact() {
+    const data = await fetchAPI(
+        `query MyQuery {
+            contact {
+               navImage {
+                alt
+                responsiveImage {
+                  src
+                  height
+                  width
+                }
+              }
+              heroSubtitle
+              title
+              heroImage {
+                alt
+                responsiveImage {
+                  src
+                  height
+                  width
+                }
+              }
+             
+            }
+          }
+          
+         `
+    )
+    return data?.contact
+}
+
+   
