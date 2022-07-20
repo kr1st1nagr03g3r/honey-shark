@@ -1,13 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Alike+Angular&family=Asul&family=Concert+One&family=Corben:wght@400;700;900&family=Eczar&family=Fruktur&family=Kavoon&family=Neuton&family=Space+Mono&family=Tillana&family=Work+Sans&display=swap");
 
+/* font-family: 'Space Mono', monospace; */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Asul&family=Concert+One&family=Corben:wght@400;700;900&family=Eczar&family=Fruktur&family=Kavoon&family=Neuton&family=Space+Mono&family=Tillana&family=Work+Sans&display=swap');
+/* font-family: "Alike Angular", serif;
+font-family: "Asul", sans-serif;
+font-family: "Concert One", cursive;
+font-family: "Corben", cursive;
+font-family: "Eczar", serif;
+font-family: "Fruktur", cursive;
+font-family: "Kavoon", cursive;
+font-family: "Neuton", serif;
+font-family: "Space Mono", monospace;
+font-family: "Tillana", cursive;
+font-family: "Work Sans", sans-serif; */
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Space Mono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Space Mono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -106,7 +119,6 @@ h3 {
   font-size: 1.618rem;
 }
 
-
 small,
 .text_small {
   font-size: 0.618rem;
@@ -117,9 +129,9 @@ small,
 }
 
 .font-serif {
-  font-family: 'Asul', sans-serif;
+  font-family: "Asul", sans-serif;
 }
 
 .font-sans {
-  font-family: 'Space Mono', monospace;
-} 
+  font-family: "Space Mono", monospace;
+}
