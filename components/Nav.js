@@ -4,15 +4,16 @@ import { Image } from "react-datocms"
 import styles from "/styles/Nav.module.css"
 
 
-export default function Header( {navImage}) {
+export default function Header({ navImage }) {
   return (
+
     <div className={"header"}>
       <Navbar bf={"light"} expand="md" >
-        <Container>
+        <Container className={styles.navHeight}>
           <Navbar.Brand href="/" className={styles.logoBrand}>
-          
-          <Image data={navImage.responsiveImage} alt={navImage.alt} className="d-inline-block align-top" />
-          
+
+            <Image data={navImage.responsiveImage} alt={navImage.alt} className="d-inline-block align-top" />
+
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
@@ -28,5 +29,6 @@ export default function Header( {navImage}) {
         </Container>
       </Navbar>
     </div>
+
   )
 }

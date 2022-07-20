@@ -1,0 +1,14 @@
+.container {
+  background: salmon;
+}
+
+.boxWrapper {
+  width: 500px;
+  background: ghostwhite;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
